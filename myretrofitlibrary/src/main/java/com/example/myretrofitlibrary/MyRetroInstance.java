@@ -7,7 +7,7 @@ public class MyRetroInstance {
 
     public static Retrofit retrofit;
 
-    public Retrofit getMyRetrofitInstance(String baseUrl){
+    public static Retrofit getMyRetrofitInstance(String baseUrl){
 
         retrofit = new retrofit2.Retrofit.Builder()
                 .baseUrl(baseUrl)
